@@ -27,7 +27,7 @@ export default function QuiltedImageList() {
         sx={{ width: "100%", height: "auto" }}
         variant="quilted"
         cols={`${getWindowDimensions().width > 1000 ? 10 : 4} `}
-        rowHeight={150}
+        rowHeight={`${getWindowDimensions().width > 1000 ? 150 : 120} `}
       >
         {itemData.map((item) => (
           <ImageListItem

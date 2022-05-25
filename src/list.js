@@ -12,6 +12,14 @@ import pic11 from "./assets/pic11.jpg";
 import gif01 from "./assets/gif01.gif";
 import gif02 from "./assets/gif02.gif";
 
+function getWindowDimensions() {
+  const { innerWidth: width, innerHeight: height } = window;
+  return {
+    width,
+    height,
+  };
+}
+
 export const itemData = [
   {
     img: pic01,
@@ -37,7 +45,7 @@ export const itemData = [
   {
     img: pic04,
     title: "Hats",
-    cols: 2,
+    cols: `${getWindowDimensions().width > 1000 ? 2 : 1} `,
   },
   {
     img: pic05,
@@ -55,20 +63,22 @@ export const itemData = [
     img: pic09,
     title: "Fern",
   },
+
+  {
+    img: gif02,
+    title: "Mushrooms",
+    rows: `${getWindowDimensions().width > 1000 ? 2 : 3} `,
+    cols: 1,
+  },
   {
     img: pic07,
-    title: "Mushrooms",
+    title: "Sea star",
     rows: 2,
     cols: 2,
   },
   {
     img: pic10,
     title: "Tomato basil",
-    rows: 2,
-  },
-  {
-    img: gif02,
-    title: "Sea star",
     rows: 2,
   },
 
