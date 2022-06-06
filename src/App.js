@@ -2,6 +2,7 @@ import * as React from "react";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { itemData } from "./list";
+import Text from "./components/Text";
 
 function srcset(image, size, rows = 1, cols = 1) {
   return {
@@ -22,7 +23,7 @@ export default function QuiltedImageList() {
   }
 
   return (
-    <>
+    <div style={{ backgroundColor: "#e3e3e3", height: "100%" }}>
       <ImageList
         sx={{ width: "100%", height: "auto" }}
         variant="quilted"
@@ -43,6 +44,7 @@ export default function QuiltedImageList() {
           </ImageListItem>
         ))}
       </ImageList>
-    </>
+      <Text />
+    </div>
   );
 }
