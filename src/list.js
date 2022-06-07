@@ -23,24 +23,24 @@ function getWindowDimensions() {
 export const itemData = [
   {
     img: pic01,
-    title: "Foto 1",
+    title: "Foto",
     rows: 4,
     cols: 2,
   },
   {
     img: pic02,
-    title: "Foto 2",
+    title: "Foto",
     rows: 2,
     cols: 2,
   },
   {
     img: gif01,
-    title: "Gif 1",
+    title: "Gif",
     rows: 2,
   },
   {
     img: pic03,
-    title: "Coffee",
+    title: "Foto",
   },
   {
     img: pic04,
@@ -49,47 +49,47 @@ export const itemData = [
   },
   {
     img: pic05,
-    title: "Honey",
+    title: "Foto",
     rows: 3,
     cols: 2,
   },
   {
     img: pic06,
-    title: "Basketball",
+    title: "Foto",
     cols: 2,
     rows: 2,
   },
   {
     img: pic09,
-    title: "Fern",
+    title: "Foto",
   },
 
   {
     img: gif02,
-    title: "Mushrooms",
+    title: "Gif",
     rows: `${getWindowDimensions().width > 1000 ? 2 : 3} `,
     cols: 1,
   },
   {
     img: pic07,
-    title: "Sea star",
+    title: "Foto",
     rows: 2,
     cols: 2,
   },
   {
     img: pic10,
-    title: "Tomato basil",
+    title: "Foto",
     rows: 2,
   },
 
   {
     img: pic08,
-    title: "Bike",
+    title: "Foto",
     cols: 2,
   },
   {
     img: pic11,
-    title: "Hats",
+    title: "Foto",
     cols: 2,
   },
 ];
