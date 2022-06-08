@@ -7,8 +7,10 @@ const title = {
 
 const text = {
   textAlign: "center",
+  fontSize: "1.2rem",
   fontFamily: "Quicksand",
   padding: "0.8rem",
+  paddingBottom: "5rem",
 };
 
 const styles = {
