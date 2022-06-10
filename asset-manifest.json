@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/valentines-day/static/css/main.e6c13ad2.css",
-    "main.js": "/valentines-day/static/js/main.ceedd12c.js",
+    "main.css": "/valentines-day/static/css/main.2b50dae0.css",
+    "main.js": "/valentines-day/static/js/main.404f77a3.js",
     "static/media/gif01.gif": "/valentines-day/static/media/gif01.80bf80287cd3f7baffdc.gif",
     "static/media/gif02.gif": "/valentines-day/static/media/gif02.0a731b0aa8c5ee3b4878.gif",
     "static/media/pic01.jpg": "/valentines-day/static/media/pic01.caa15d9653d87443a748.jpg",
@@ -16,11 +16,11 @@
     "static/media/pic09.jpg": "/valentines-day/static/media/pic09.b784815349e095b8fde5.jpg",
     "static/media/pic10.jpg": "/valentines-day/static/media/pic10.1340987e8aaad34cc604.jpg",
     "index.html": "/valentines-day/index.html",
-    "main.e6c13ad2.css.map": "/valentines-day/static/css/main.e6c13ad2.css.map",
-    "main.ceedd12c.js.map": "/valentines-day/static/js/main.ceedd12c.js.map"
+    "main.2b50dae0.css.map": "/valentines-day/static/css/main.2b50dae0.css.map",
+    "main.404f77a3.js.map": "/valentines-day/static/js/main.404f77a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.ceedd12c.js"
+    "static/css/main.2b50dae0.css",
+    "static/js/main.404f77a3.js"
   ]
 }
