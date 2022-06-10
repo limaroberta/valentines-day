@@ -13,7 +13,7 @@ function srcset(image, size, rows = 1, cols = 1) {
   };
 }
 
-export default function QuiltedImageList() {
+export default function App() {
   function getWindowDimensions() {
     const { innerWidth: width, innerHeight: height } = window;
     return {
@@ -25,7 +25,7 @@ export default function QuiltedImageList() {
   return (
     <div style={{ backgroundColor: "#e3e3e3", height: "100%" }}>
       <ImageList
-        sx={{ width: "100%", height: "auto" }}
+        sx={{ width: "100%", height: "auto", backgroundColor: "#800000", paddingBottom: '1rem'}}
         variant="quilted"
         cols={`${getWindowDimensions().width > 1000 ? 10 : 4} `}
         rowHeight={`${getWindowDimensions().width > 1000 ? 150 : 120} `}
